@@ -29,7 +29,7 @@ function checkInputs() {
 
     //email format
     function Email(email) {
-        return /^([A-Za-z0-9_.]+\@([a-z])+\.([a-z])+$/.test(email);
+        return /^([A-Za-z0-9_.])+\@([a-z])+\.([a-z])+$/.test(email);
     }   
 	
 	if(passwordValue === '') {
